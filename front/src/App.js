@@ -10,7 +10,7 @@ import CheckoutPage from './pages/CheckoutPage';
 import PaymentSuccess from './components/PaymentSuccess';
 import PaymentFailed from './components/PaymentFailed';
 
-const stripePromise = loadStripe('your-publishable-key-here');
+const stripePromise = loadStripe('pk_test_51PndiiJ4z3YcjgAvbxgKlfhrTPvp6rF8MIKKLZE9wLki85NTHt0POKk4YjIa8azqul76uKLHJ5QL0ieSUssip8fu00IILIN2B5');
 
 function App() {
     const [cartItems, setCartItems] = useState([]);
